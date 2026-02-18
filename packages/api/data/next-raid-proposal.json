@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-09T10:36:12.688Z",
+  "currentTile": 1,
+  "currentRegion": "Trench Lowlands",
+  "nextBoss": {
+    "tile": 15,
+    "name": "Valentine's Tyrant",
+    "hp": 100,
+    "maxHp": 100,
+    "type": "FUD Fiend",
+    "loot": "Heart Shard"
+  },
+  "proposal": "Prime: Assemble the Swarm for the next raid?",
+  "status": "pending_approval"
+}

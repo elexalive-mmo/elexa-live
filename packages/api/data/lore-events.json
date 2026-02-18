@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Whale Shadow Looms",
+    "trigger": "whale_move",
+    "reward": "Scout bonus on next raid, hidden tile revealed",
+    "type": "mystery",
+    "flavor": "A massive wallet stirs. Is it accumulation or distribution?",
+    "primeQuote": "The whales do not announce their intentions. Watch their actions.",
+    "id": "event_1770633310882",
+    "timestamp": "2026-02-09T10:35:10.882Z",
+    "expiresAt": "2026-02-10T10:35:10.882Z",
+    "active": true
+  }
+]

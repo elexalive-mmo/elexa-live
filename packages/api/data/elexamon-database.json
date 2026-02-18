@@ -1,0 +1,2494 @@
+{
+  "version": "3.0",
+  "generatedAt": "2026-02-10T14:37:50.563Z",
+  "elements": [
+    "Earth",
+    "Fire",
+    "Water",
+    "Wind",
+    "Spirit"
+  ],
+  "evolutionTiers": [
+    "Hatchling",
+    "Fledgling",
+    "Elder",
+    "Ascended",
+    "Legendary",
+    "Mythic"
+  ],
+  "creatures": [
+    {
+      "id": "0000",
+      "name": "Neonix",
+      "element": "Spirit",
+      "tier": "Legendary",
+      "stats": {
+        "hp": 99,
+        "atk": 99,
+        "def": 99,
+        "spd": 99,
+        "spa": 99,
+        "int": 99
+      },
+      "signatureMove": "Genesis Pulse",
+      "visualPrompt": "The First Guardian. A pre-Genesis relic of unmatched fidelity, born from the raw code of the world core.",
+      "rarity": "Legendary"
+    },
+    {
+      "id": "001",
+      "name": "Geobyte",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 22,
+        "atk": 22,
+        "def": 27,
+        "spd": 23,
+        "spa": 25,
+        "int": 21
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "Small, floating granite pebble with a single glowing cyan eye. Moss grows in circuit-board patterns on its surface. Cute but heavy.",
+      "rarity": "Common"
+    },
+    {
+      "id": "002",
+      "name": "Terracore",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 54,
+        "atk": 49,
+        "def": 41,
+        "spd": 46,
+        "spa": 40,
+        "int": 40
+      },
+      "signatureMove": "Rock Throw",
+      "visualPrompt": "A stone wolf-cub with legs made of floating basalt chunks held together by blue energy. Runes etched on its forehead.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "003",
+      "name": "Litholord",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 78,
+        "atk": 75,
+        "def": 79,
+        "spd": 84,
+        "spa": 72,
+        "int": 72
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "Massive golem-wolf. Its mane is made of sharp stalagmites. Floating data-rings orbit its shoulders. Looks like a raid boss tank.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "004",
+      "name": "Rootmaw",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 21,
+        "atk": 22,
+        "def": 24,
+        "spd": 29,
+        "spa": 24,
+        "int": 25
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "A snapping turtle with a tree stump for a shell. Glowing green sap drips from its beak.",
+      "rarity": "Common"
+    },
+    {
+      "id": "005",
+      "name": "Barksnap",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 45,
+        "atk": 54,
+        "def": 44,
+        "spd": 45,
+        "spa": 43,
+        "int": 46
+      },
+      "signatureMove": "Synthesize",
+      "visualPrompt": "Bipedal turtle-ent. The shell is now a fortress-like bark shield on its back. Vines wrap its arms like muscle fibers.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "006",
+      "name": "Elderbark",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 77,
+        "atk": 74,
+        "def": 74,
+        "spd": 82,
+        "spa": 84,
+        "int": 82
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "Towing fortress. Its shell supports a mini-ecosystem with glowing mushrooms. It holds a staff of crystallized amber.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "007",
+      "name": "Pebblepug",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 24,
+        "def": 28,
+        "spd": 23,
+        "spa": 29,
+        "int": 20
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "A bulldog-like creature made of smooth river stones. Drools liquid mud. Very dense.",
+      "rarity": "Common"
+    },
+    {
+      "id": "008",
+      "name": "Boulderbull",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 48,
+        "atk": 46,
+        "def": 48,
+        "spd": 41,
+        "spa": 40,
+        "int": 54
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "A bull with horns made of raw diamond geodes. Its skin is cracked earth revealing magma-like energy beneath (but green/earth energy).",
+      "rarity": "Rare"
+    },
+    {
+      "id": "009",
+      "name": "Titanhorn",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 82,
+        "atk": 77,
+        "def": 83,
+        "spd": 70,
+        "spa": 81,
+        "int": 78
+      },
+      "signatureMove": "Root Bind",
+      "visualPrompt": "Minotaur-esque titan. Armor plating is natural bedrock. It carries a hammer made of a single obsidian slab.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "010",
+      "name": "Sporekit",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 20,
+        "atk": 22,
+        "def": 20,
+        "spd": 24,
+        "spa": 26,
+        "int": 27
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "A fox kit (reference inspired) covered in bioluminescent purple mushrooms. Eyes are voids of white light.",
+      "rarity": "Common"
+    },
+    {
+      "id": "011",
+      "name": "Fungifox",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 52,
+        "atk": 48,
+        "def": 53,
+        "spd": 50,
+        "spa": 43,
+        "int": 41
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "Lean fox with long legs. The mushrooms now form a toxic cowl around its neck. It leaves a trail of digital spores.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "012",
+      "name": "Mycelion",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 77,
+        "atk": 72,
+        "def": 81,
+        "spd": 77,
+        "spa": 78,
+        "int": 82
+      },
+      "signatureMove": "Rock Throw",
+      "visualPrompt": "A lion-fox hybrid. Its mane is a cloud of purple spores. Runes float around its paws. It looks hallucinogenic and deadly.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "013",
+      "name": "Grindhog",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 25,
+        "def": 24,
+        "spd": 22,
+        "spa": 25,
+        "int": 26
+      },
+      "signatureMove": "Rock Throw",
+      "visualPrompt": "A hedgehog with metallic spikes. Resembles a walking mace. Metallic sheen on organic fur.",
+      "rarity": "Common"
+    },
+    {
+      "id": "014",
+      "name": "Drillspine",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 48,
+        "atk": 47,
+        "def": 54,
+        "spd": 50,
+        "spa": 41,
+        "int": 54
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "The spines are now rotating drill bits. It has protective goggles fused to its face. Industrial-earth aesthetic.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "015",
+      "name": "Excavore",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 79,
+        "atk": 83,
+        "def": 84,
+        "spd": 72,
+        "spa": 78,
+        "int": 77
+      },
+      "signatureMove": "Rock Throw",
+      "visualPrompt": "A tank-sized mole/boar beast. Back is covered in massive diamond-tipped drills. Glowing yellow hazard stripes on its fur.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "016",
+      "name": "Vinesnake",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 21,
+        "atk": 24,
+        "def": 24,
+        "spd": 24,
+        "spa": 21,
+        "int": 21
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "Tiny emerald serpent with leaves for scales.",
+      "rarity": "Common"
+    },
+    {
+      "id": "017",
+      "name": "Ivywyrm",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 53,
+        "atk": 42,
+        "def": 40,
+        "spd": 41,
+        "spa": 45,
+        "int": 49
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "Larger drake-like snake. Wings are giant tropical leaves. Eyes glow with hunter vision.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "018",
+      "name": "Jungleking",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 72,
+        "atk": 79,
+        "def": 84,
+        "spd": 73,
+        "spa": 75,
+        "int": 70
+      },
+      "signatureMove": "Rock Throw",
+      "visualPrompt": "Massive serpent dragon (Quetzalcoatl style). Scales are shifting jade plates. Roar creates visible soundwaves.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "019",
+      "name": "Mudmonk",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 27,
+        "atk": 28,
+        "def": 29,
+        "spd": 29,
+        "spa": 22,
+        "int": 23
+      },
+      "signatureMove": "Synthesize",
+      "visualPrompt": "A small monkey meditating on a floating dirt mound. Peaceful expression.",
+      "rarity": "Common"
+    },
+    {
+      "id": "020",
+      "name": "Loamfist",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 52,
+        "atk": 51,
+        "def": 53,
+        "spd": 53,
+        "spa": 49,
+        "int": 48
+      },
+      "signatureMove": "Synthesize",
+      "visualPrompt": "Gorilla with oversized forearms made of hardened clay. Runes glowing red on knuckles.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "021",
+      "name": "Terrarilla",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 73,
+        "atk": 78,
+        "def": 72,
+        "spd": 76,
+        "spa": 75,
+        "int": 70
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "Silverback gorilla with armor made of tectonic plates. Fists glow with earthquake energy.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "022",
+      "name": "Beetleborg",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 22,
+        "atk": 20,
+        "def": 25,
+        "spd": 21,
+        "spa": 24,
+        "int": 29
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "Robotic stag beetle. Shiny carapace reflects the environment perfectly.",
+      "rarity": "Common"
+    },
+    {
+      "id": "023",
+      "name": "Ironshell",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 50,
+        "atk": 52,
+        "def": 47,
+        "spd": 40,
+        "spa": 50,
+        "int": 46
+      },
+      "signatureMove": "Root Bind",
+      "visualPrompt": "Upright beetle warrior. Four arms, each holding a different stone weapon.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "024",
+      "name": "Panzerhirsch",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 71,
+        "atk": 74,
+        "def": 80,
+        "spd": 73,
+        "spa": 79,
+        "int": 74
+      },
+      "signatureMove": "Rock Throw",
+      "visualPrompt": "Massive stag beetle tank. Indestructible carapace. Bio-thrusters on back for charges.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "025",
+      "name": "Crystalmoth",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 21,
+        "def": 21,
+        "spd": 25,
+        "spa": 22,
+        "int": 28
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "Moth with wings made of thin stained glass.",
+      "rarity": "Common"
+    },
+    {
+      "id": "026",
+      "name": "Prismawing",
+      "element": "Earth",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 41,
+        "atk": 44,
+        "def": 40,
+        "spd": 48,
+        "spa": 40,
+        "int": 44
+      },
+      "signatureMove": "Earthquake",
+      "visualPrompt": "Wings refract light into rainbows. It hunts by blinding enemies.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "027",
+      "name": "Refractus",
+      "element": "Earth",
+      "tier": "Elder",
+      "stats": {
+        "hp": 74,
+        "atk": 84,
+        "def": 84,
+        "spd": 82,
+        "spa": 84,
+        "int": 78
+      },
+      "signatureMove": "Synthesize",
+      "visualPrompt": "Moth god. Wings are giant mirrors reflecting the viewer's soul. Ethereal and terrifying beauty.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "028",
+      "name": "Gravelgeist",
+      "element": "Earth",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 27,
+        "atk": 21,
+        "def": 22,
+        "spd": 21,
+        "spa": 27,
+        "int": 23
+      },
+      "signatureMove": "Rock Throw",
+      "visualPrompt": "A ghost possessing a pile of rocks. Cute glowing eyes in the rubble.",
+      "rarity": "Common"
+    },
+    {
+      "id": "029",
+      "name": "Gaia's Heart",
+      "element": "Earth",
+      "tier": "LEGENDARY",
+      "stats": {
+        "hp": 28,
+        "atk": 24,
+        "def": 28,
+        "spd": 26,
+        "spa": 21,
+        "int": 25
+      },
+      "signatureMove": "Vine Whip",
+      "visualPrompt": "The Earth Avatar. A humanoid figure made of pure white marble, floating in a lotus position, surrounded by orbiting planets. **(The Region Boss)**",
+      "rarity": "Rare"
+    },
+    {
+      "id": "030",
+      "name": "Emberling",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 22,
+        "def": 23,
+        "spd": 22,
+        "spa": 20,
+        "int": 29
+      },
+      "signatureMove": "Ember",
+      "visualPrompt": "**(Reference Image)** Orange fox kit. Oversized ears. Golden rune glowing on forehead. Tail is literally on fire (not just fur). Big green eyes.",
+      "rarity": "Common"
+    },
+    {
+      "id": "031",
+      "name": "Pyrofox",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 49,
+        "atk": 45,
+        "def": 51,
+        "spd": 41,
+        "spa": 43,
+        "int": 44
+      },
+      "signatureMove": "Ember",
+      "visualPrompt": "Sleek red fox. Three tails made of blue flame. Paws leave scorched footprints. Floating fire-orbs circle its head.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "032",
+      "name": "Infernalis",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 73,
+        "atk": 82,
+        "def": 74,
+        "spd": 78,
+        "spa": 80,
+        "int": 75
+      },
+      "signatureMove": "Plasma Canon",
+      "visualPrompt": "Nine-tailed fox deity. Fur is white-hot energy. Eyes are burning suns. It stands on a cloud of ash.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "033",
+      "name": "Sparkpup",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 22,
+        "atk": 23,
+        "def": 28,
+        "spd": 26,
+        "spa": 29,
+        "int": 22
+      },
+      "signatureMove": "Plasma Canon",
+      "visualPrompt": "Dalmatian puppy, but the spots are glowing embers. Floppy ears.",
+      "rarity": "Common"
+    },
+    {
+      "id": "034",
+      "name": "Flarehound",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 41,
+        "atk": 42,
+        "def": 43,
+        "spd": 47,
+        "spa": 54,
+        "int": 47
+      },
+      "signatureMove": "Plasma Canon",
+      "visualPrompt": "Greyhound shape. Streamlined for speed. A trail of fire follows it. Metallic collar with a digital display.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "035",
+      "name": "Blazealpha",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 80,
+        "atk": 82,
+        "def": 79,
+        "spd": 83,
+        "spa": 84,
+        "int": 73
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "Cerberus-like wolf (one head). Mane is a literal explosion caught in time. Chains of fire broken on its legs.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "036",
+      "name": "Ashowl",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 29,
+        "atk": 28,
+        "def": 29,
+        "spd": 23,
+        "spa": 26,
+        "int": 20
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "Tiny owl made of grey ash. Eyes glow orange.",
+      "rarity": "Common"
+    },
+    {
+      "id": "037",
+      "name": "Cinderwing",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 43,
+        "atk": 44,
+        "def": 45,
+        "spd": 46,
+        "spa": 45,
+        "int": 44
+      },
+      "signatureMove": "Overheat",
+      "visualPrompt": "Hawk-sized bird. Wings leave trails of smoke. Talons are red-hot metal.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "038",
+      "name": "Phoenixia",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 73,
+        "atk": 81,
+        "def": 76,
+        "spd": 81,
+        "spa": 71,
+        "int": 73
+      },
+      "signatureMove": "Ember",
+      "visualPrompt": "The classic Phoenix reimagined: cybernetic armor plates over living fire wings. A construct of eternal rebirth.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "039",
+      "name": "Magmalite",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 29,
+        "atk": 22,
+        "def": 26,
+        "spd": 25,
+        "spa": 22,
+        "int": 23
+      },
+      "signatureMove": "Inferno",
+      "visualPrompt": "A living blob of lava with a cute face. Hardened rock \"helmet\".",
+      "rarity": "Common"
+    },
+    {
+      "id": "040",
+      "name": "Lavacore",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 52,
+        "atk": 49,
+        "def": 45,
+        "spd": 45,
+        "spa": 46,
+        "int": 43
+      },
+      "signatureMove": "Inferno",
+      "visualPrompt": "Humanoid lava golem. Cracks reveal blinding white heat. Runs fast, dripping magma.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "041",
+      "name": "Volcanus",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 84,
+        "atk": 73,
+        "def": 77,
+        "spd": 70,
+        "spa": 81,
+        "int": 82
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "Giant obsidian giant. Its back is an active volcano. Shoulders erupt constantly.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "042",
+      "name": "Scorchscorp",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 25,
+        "atk": 21,
+        "def": 21,
+        "spd": 27,
+        "spa": 21,
+        "int": 27
+      },
+      "signatureMove": "Inferno",
+      "visualPrompt": "Scorpion made of rusted metal and fire. Tail tip is a welding torch.",
+      "rarity": "Common"
+    },
+    {
+      "id": "043",
+      "name": "Searingsting",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 45,
+        "atk": 41,
+        "def": 42,
+        "spd": 52,
+        "spa": 48,
+        "int": 54
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "Larger scorpion. Claws are hydraulic clamps heated to 1000 degrees.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "044",
+      "name": "Doombringer",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 75,
+        "atk": 72,
+        "def": 82,
+        "spd": 72,
+        "spa": 82,
+        "int": 71
+      },
+      "signatureMove": "Ember",
+      "visualPrompt": "Massive siege-engine scorpion. Tail is a railgun that shoots plasma bolts. Hardcore mech aesthetic.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "045",
+      "name": "Flamebatt",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 25,
+        "atk": 27,
+        "def": 21,
+        "spd": 23,
+        "spa": 20,
+        "int": 21
+      },
+      "signatureMove": "Overheat",
+      "visualPrompt": "Bat with wings of thin flame. Hangs upside down from burning branches.",
+      "rarity": "Common"
+    },
+    {
+      "id": "046",
+      "name": "Pyroscreech",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 51,
+        "atk": 45,
+        "def": 51,
+        "spd": 51,
+        "spa": 43,
+        "int": 54
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "Wyvern-like bat. Sonic waves visible as heat distortion.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "047",
+      "name": "Hellkyrie",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 76,
+        "atk": 84,
+        "def": 75,
+        "spd": 71,
+        "spa": 80,
+        "int": 76
+      },
+      "signatureMove": "Overheat",
+      "visualPrompt": "Vampire lord aesthetic but elementally fire. Wings are capes of solar flare. Wields a whip of flame.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "048",
+      "name": "Charcoalcat",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 24,
+        "atk": 26,
+        "def": 24,
+        "spd": 20,
+        "spa": 20,
+        "int": 24
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "Black kitten with glowing orange cracks. Leaves soot marks.",
+      "rarity": "Common"
+    },
+    {
+      "id": "049",
+      "name": "Smokestalker",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 49,
+        "atk": 40,
+        "def": 40,
+        "spd": 52,
+        "spa": 45,
+        "int": 41
+      },
+      "signatureMove": "Ember",
+      "visualPrompt": "Panther. Can turn into smoke (semitransparent body). Eyes remain solid red.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "050",
+      "name": "Shadowburn",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 74,
+        "atk": 76,
+        "def": 70,
+        "spd": 76,
+        "spa": 84,
+        "int": 77
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "Tiger. Stripes are flowing lava. Teeth are obsidian daggers. Pure aggression.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "051",
+      "name": "Ignisprite",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 27,
+        "def": 25,
+        "spd": 20,
+        "spa": 29,
+        "int": 24
+      },
+      "signatureMove": "Ember",
+      "visualPrompt": "Tiny fairy made of matchstick fire.",
+      "rarity": "Common"
+    },
+    {
+      "id": "052",
+      "name": "Blazefae",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 52,
+        "atk": 44,
+        "def": 47,
+        "spd": 53,
+        "spa": 49,
+        "int": 44
+      },
+      "signatureMove": "Overheat",
+      "visualPrompt": "Humanoid fire elemental. Dances constantly. Use motion blur in art.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "053",
+      "name": "Novaqueen",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 81,
+        "atk": 74,
+        "def": 84,
+        "spd": 82,
+        "spa": 83,
+        "int": 73
+      },
+      "signatureMove": "Plasma Canon",
+      "visualPrompt": "Sorceress of flame. Dress is a nuclear mushroom cloud inverted. Staff constitutes a mini-sun.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "054",
+      "name": "Welderbot",
+      "element": "Fire",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 21,
+        "atk": 23,
+        "def": 24,
+        "spd": 23,
+        "spa": 21,
+        "int": 28
+      },
+      "signatureMove": "Overheat",
+      "visualPrompt": "Small industrial robot with a flamethrower arm. Cute single lens eye.",
+      "rarity": "Common"
+    },
+    {
+      "id": "055",
+      "name": "Fusionmech",
+      "element": "Fire",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 46,
+        "atk": 51,
+        "def": 42,
+        "spd": 41,
+        "spa": 45,
+        "int": 53
+      },
+      "signatureMove": "Plasma Canon",
+      "visualPrompt": "Combat android. Chest reactor exposed. Wields dual plasma blades.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "056",
+      "name": "Reactorgod",
+      "element": "Fire",
+      "tier": "Elder",
+      "stats": {
+        "hp": 80,
+        "atk": 75,
+        "def": 70,
+        "spd": 82,
+        "spa": 75,
+        "int": 71
+      },
+      "signatureMove": "Ember",
+      "visualPrompt": "Towering mech (Gundam style). Powered by a Dyson sphere core in chest.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "057",
+      "name": "Solaris",
+      "element": "Fire",
+      "tier": "LEGENDARY",
+      "stats": {
+        "hp": 27,
+        "atk": 28,
+        "def": 25,
+        "spd": 27,
+        "spa": 22,
+        "int": 24
+      },
+      "signatureMove": "Flame Wheel",
+      "visualPrompt": "A dragon made entirely of sun surface texture. No scales, just rolling plasma. Crown of radiation. **(Region Boss)**",
+      "rarity": "Rare"
+    },
+    {
+      "id": "058",
+      "name": "Herald of Fire",
+      "element": "Fire",
+      "tier": "MYTHIC",
+      "stats": {
+        "hp": 28,
+        "atk": 23,
+        "def": 23,
+        "spd": 29,
+        "spa": 28,
+        "int": 27
+      },
+      "signatureMove": "Overheat",
+      "visualPrompt": "(From DB) \"First Reckoning\". A knight in armor hotter than the sun. The sword cleaves reality.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "059",
+      "name": "Droplet",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 29,
+        "atk": 20,
+        "def": 26,
+        "spd": 20,
+        "spa": 22,
+        "int": 26
+      },
+      "signatureMove": "Aqua Jet",
+      "visualPrompt": "A floating bubble of water with big eyes inside. Wears a tiny diving helmet.",
+      "rarity": "Common"
+    },
+    {
+      "id": "060",
+      "name": "Tidepup",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 50,
+        "atk": 54,
+        "def": 51,
+        "spd": 49,
+        "spa": 49,
+        "int": 42
+      },
+      "signatureMove": "Hydro Pump",
+      "visualPrompt": "Otter-like creature. Its fur is wet and slick. Tail is a rudder. Goggles on its head.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "061",
+      "name": "Hydrolord",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 81,
+        "atk": 79,
+        "def": 81,
+        "spd": 81,
+        "spa": 83,
+        "int": 76
+      },
+      "signatureMove": "Water Gun",
+      "visualPrompt": "Massive humanoid otter warrior. Wields a trident made of coral. Armor is pressurized deep-sea plating.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "062",
+      "name": "Coralcrab",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 29,
+        "atk": 29,
+        "def": 24,
+        "spd": 26,
+        "spa": 25,
+        "int": 22
+      },
+      "signatureMove": "Hydro Pump",
+      "visualPrompt": "Tiny crab with a neon-glowing anemone on its back.",
+      "rarity": "Common"
+    },
+    {
+      "id": "063",
+      "name": "Reefking",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 50,
+        "atk": 49,
+        "def": 44,
+        "spd": 44,
+        "spa": 46,
+        "int": 50
+      },
+      "signatureMove": "Aqua Jet",
+      "visualPrompt": "Giant crab. The anemone is now a laser-turret (organic). Claws are massive hydraulic crushers.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "064",
+      "name": "Abyssclaw",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 83,
+        "atk": 82,
+        "def": 76,
+        "spd": 83,
+        "spa": 80,
+        "int": 83
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "Spider-crab from the void. Legs are 20ft long (scale). Glowing red eyes in the dark.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "065",
+      "name": "Jellywisp",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 23,
+        "atk": 29,
+        "def": 24,
+        "spd": 29,
+        "spa": 29,
+        "int": 28
+      },
+      "signatureMove": "Tidal Wave",
+      "visualPrompt": "Transparent jellyfish with electrical nerves visible.",
+      "rarity": "Common"
+    },
+    {
+      "id": "066",
+      "name": "Shockmedusa",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 44,
+        "atk": 52,
+        "def": 51,
+        "spd": 51,
+        "spa": 41,
+        "int": 40
+      },
+      "signatureMove": "Hydro Pump",
+      "visualPrompt": "Larger jellyfish. Tentacles spark with actual lightning. Looks venomous and beautiful.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "067",
+      "name": "Voltleviathan",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 72,
+        "atk": 77,
+        "def": 77,
+        "spd": 80,
+        "spa": 75,
+        "int": 74
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "Massive man-o-war. Its bell is a thunderstorm cloud trapped in water.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "068",
+      "name": "Sharkbyte",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 25,
+        "atk": 24,
+        "def": 28,
+        "spd": 24,
+        "spa": 28,
+        "int": 29
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "Mechanical shark pup. Fins are razor blades.",
+      "rarity": "Common"
+    },
+    {
+      "id": "069",
+      "name": "Megalomech",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 49,
+        "atk": 51,
+        "def": 41,
+        "spd": 40,
+        "spa": 43,
+        "int": 40
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "Roboshark. Laser beams attached to head. Sleek chrome skin.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "070",
+      "name": "GigaJaws",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 71,
+        "atk": 83,
+        "def": 75,
+        "spd": 70,
+        "spa": 76,
+        "int": 83
+      },
+      "signatureMove": "Aqua Jet",
+      "visualPrompt": "The ultimate predator. A shark the size of a submarine. Mouth glows with nuclear blue light.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "071",
+      "name": "Squidink",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 24,
+        "atk": 28,
+        "def": 23,
+        "spd": 24,
+        "spa": 25,
+        "int": 24
+      },
+      "signatureMove": "Aqua Jet",
+      "visualPrompt": "Cute squid holding a paintbrush. Shoots ink blobs.",
+      "rarity": "Common"
+    },
+    {
+      "id": "072",
+      "name": "Krakenart",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 45,
+        "atk": 50,
+        "def": 44,
+        "spd": 48,
+        "spa": 40,
+        "int": 44
+      },
+      "signatureMove": "Water Gun",
+      "visualPrompt": "Multi-armed squid. Each tentacle holds a different weapon. Patterns shift on its skin like a display screen.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "073",
+      "name": "Cthulhuvoid",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 81,
+        "atk": 71,
+        "def": 75,
+        "spd": 70,
+        "spa": 82,
+        "int": 84
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "Eldritch horror squid. Face is a mass of tentacles. Wings of water. Non-euclidean geometry around it.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "074",
+      "name": "Anglerbulb",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 24,
+        "def": 27,
+        "spd": 29,
+        "spa": 22,
+        "int": 27
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "Deep sea fish with a lightbulb lure.",
+      "rarity": "Common"
+    },
+    {
+      "id": "075",
+      "name": "Luremaster",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 50,
+        "atk": 48,
+        "def": 40,
+        "spd": 45,
+        "spa": 53,
+        "int": 45
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "The lure is now a holographic projection of a smaller fish. Very deceptive.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "076",
+      "name": "Abysslight",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 84,
+        "atk": 71,
+        "def": 74,
+        "spd": 83,
+        "spa": 83,
+        "int": 75
+      },
+      "signatureMove": "Water Gun",
+      "visualPrompt": "Monstrous anglerfish. Its mouth is a portal to the deep. The lure is a blinding star.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "077",
+      "name": "Turtletank",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 20,
+        "atk": 22,
+        "def": 23,
+        "spd": 28,
+        "spa": 23,
+        "int": 24
+      },
+      "signatureMove": "Water Gun",
+      "visualPrompt": "Turtle with a cannon barrel sticking out of its shell.",
+      "rarity": "Common"
+    },
+    {
+      "id": "078",
+      "name": "Blastoise-X",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 54,
+        "atk": 53,
+        "def": 53,
+        "spd": 51,
+        "spa": 45,
+        "int": 42
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "(Homage) Bipedal turtle with dual hydro-cannons on shoulders. Tactical visor.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "079",
+      "name": "Dreadnought",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 76,
+        "atk": 76,
+        "def": 81,
+        "spd": 71,
+        "spa": 78,
+        "int": 82
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "A living battleship. Shell is covered in missile silos (water rockets).",
+      "rarity": "Rare"
+    },
+    {
+      "id": "080",
+      "name": "Sirensong",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 22,
+        "atk": 27,
+        "def": 26,
+        "spd": 20,
+        "spa": 21,
+        "int": 21
+      },
+      "signatureMove": "Water Gun",
+      "visualPrompt": "Tiny mermaid-like sprite. Sings notes that appear as visual bubbles.",
+      "rarity": "Common"
+    },
+    {
+      "id": "081",
+      "name": "Melodysea",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 41,
+        "atk": 50,
+        "def": 51,
+        "spd": 41,
+        "spa": 43,
+        "int": 51
+      },
+      "signatureMove": "Tidal Wave",
+      "visualPrompt": "Siren with a harp made of whale bone. Visual soundwaves surround her.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "082",
+      "name": "Oceanus",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 78,
+        "atk": 82,
+        "def": 79,
+        "spd": 75,
+        "spa": 81,
+        "int": 71
+      },
+      "signatureMove": "Hydro Pump",
+      "visualPrompt": "Poseidon-like figure made of crashing waves. Beard is seafoam. Holds the ocean in his hand.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "083",
+      "name": "Glacierpenguin",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 22,
+        "atk": 21,
+        "def": 24,
+        "spd": 27,
+        "spa": 28,
+        "int": 27
+      },
+      "signatureMove": "Water Gun",
+      "visualPrompt": "Penguin wearing a scarf made of ice.",
+      "rarity": "Common"
+    },
+    {
+      "id": "084",
+      "name": "Slidewing",
+      "element": "Water",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 52,
+        "atk": 47,
+        "def": 43,
+        "spd": 51,
+        "spa": 46,
+        "int": 52
+      },
+      "signatureMove": "Tidal Wave",
+      "visualPrompt": "Penguin that slides on a track of ice it creates instantly. Speedster aesthetic.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "085",
+      "name": "Emperorice",
+      "element": "Water",
+      "tier": "Elder",
+      "stats": {
+        "hp": 75,
+        "atk": 77,
+        "def": 74,
+        "spd": 79,
+        "spa": 80,
+        "int": 82
+      },
+      "signatureMove": "Tidal Wave",
+      "visualPrompt": "Regally dressed penguin (ice armor tuxedo). Commands a legion of frost-bites.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "086",
+      "name": "Thalassa",
+      "element": "Water",
+      "tier": "LEGENDARY",
+      "stats": {
+        "hp": 28,
+        "atk": 24,
+        "def": 29,
+        "spd": 22,
+        "spa": 29,
+        "int": 25
+      },
+      "signatureMove": "Bubble",
+      "visualPrompt": "A serpent made of the deepest trench water. Black water with bio-lights. Eyes are pressure-warning lights. **(Region Boss)**",
+      "rarity": "Rare"
+    },
+    {
+      "id": "087",
+      "name": "Herald of Tide",
+      "element": "Water",
+      "tier": "MYTHIC",
+      "stats": {
+        "hp": 24,
+        "atk": 26,
+        "def": 27,
+        "spd": 21,
+        "spa": 24,
+        "int": 28
+      },
+      "signatureMove": "Aqua Jet",
+      "visualPrompt": "(From DB) \"Second Reckoning\". A knight of fluid metal. Armor flows like mercury.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "088",
+      "name": "Frostbyte",
+      "element": "Water",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 92,
+        "atk": 88,
+        "def": 85,
+        "spd": 95,
+        "spa": 90,
+        "int": 94
+      },
+      "signatureMove": "Celestial Howl",
+      "visualPrompt": "Celestial white wolf spirit. Luminous fur radiates moonlight. Blue eyes pierce through starlit darkness. Hydro-aetheric energy coils around paws. Ornate golden frame. Gen 1 First Print.",
+      "rarity": "Legendary"
+    },
+    {
+      "id": "089",
+      "name": "Aurorawolf",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 40,
+        "atk": 49,
+        "def": 44,
+        "spd": 52,
+        "spa": 52,
+        "int": 54
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "Larger wolf. The aurora now forms a mane and trails behind it as it runs. Paws leave ice crystals.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "090",
+      "name": "BorealisRex",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 76,
+        "atk": 82,
+        "def": 83,
+        "spd": 81,
+        "spa": 76,
+        "int": 77
+      },
+      "signatureMove": "Gust",
+      "visualPrompt": "Giant alpha wolf. Entire back half dissolves into a cosmic light show. Howl creates visible sonic rings. Boss energy.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "091",
+      "name": "Breezeling",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 28,
+        "atk": 29,
+        "def": 29,
+        "spd": 20,
+        "spa": 25,
+        "int": 23
+      },
+      "signatureMove": "Hurricane",
+      "visualPrompt": "A cloud with a face. Very fluffy.",
+      "rarity": "Common"
+    },
+    {
+      "id": "092",
+      "name": "Gustgriffin",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 40,
+        "atk": 41,
+        "def": 44,
+        "spd": 42,
+        "spa": 40,
+        "int": 51
+      },
+      "signatureMove": "Hurricane",
+      "visualPrompt": "Griffin with wings made of compressed air (transparent distortion).",
+      "rarity": "Rare"
+    },
+    {
+      "id": "093",
+      "name": "Tempestking",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 78,
+        "atk": 71,
+        "def": 83,
+        "spd": 76,
+        "spa": 79,
+        "int": 82
+      },
+      "signatureMove": "Hurricane",
+      "visualPrompt": "Majestic Griffin. Armor made of thunderclouds. Lightning arcs between feathers.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "094",
+      "name": "Crystalmoth",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 28,
+        "atk": 24,
+        "def": 23,
+        "spd": 22,
+        "spa": 24,
+        "int": 20
+      },
+      "signatureMove": "Air Slash",
+      "visualPrompt": "Tiny moth made of quartz.",
+      "rarity": "Common"
+    },
+    {
+      "id": "095",
+      "name": "Prismwing",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 54,
+        "atk": 41,
+        "def": 54,
+        "spd": 47,
+        "spa": 47,
+        "int": 43
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "Butterfly with faceted wings that reflect rainbows. Hard geometry.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "096",
+      "name": "DiamondGod",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 71,
+        "atk": 77,
+        "def": 83,
+        "spd": 81,
+        "spa": 70,
+        "int": 80
+      },
+      "signatureMove": "Mach Strike",
+      "visualPrompt": "Mothra-like deity made of pure diamond. Blindingly bright.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "097",
+      "name": "Skyray",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 21,
+        "atk": 20,
+        "def": 26,
+        "spd": 21,
+        "spa": 24,
+        "int": 25
+      },
+      "signatureMove": "Air Slash",
+      "visualPrompt": "Manta ray that flies. Blue and white patterns.",
+      "rarity": "Common"
+    },
+    {
+      "id": "098",
+      "name": "Aeroglider",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 40,
+        "atk": 51,
+        "def": 40,
+        "spd": 41,
+        "spa": 44,
+        "int": 51
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "Jet-shaped manta ray. Bio-thrusters on wings. Streamlined.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "099",
+      "name": "Stratofortress",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 79,
+        "atk": 73,
+        "def": 74,
+        "spd": 82,
+        "spa": 78,
+        "int": 79
+      },
+      "signatureMove": "Hurricane",
+      "visualPrompt": "Massive flying whale/ray hybrid. Clouds cling to its fins. Has a \"runway\" on its back.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "100",
+      "name": "Zappup",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 28,
+        "atk": 24,
+        "def": 20,
+        "spd": 24,
+        "spa": 29,
+        "int": 26
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "Yellow puppy with static fur. Sparks when excited.",
+      "rarity": "Common"
+    },
+    {
+      "id": "101",
+      "name": "Volthound",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 53,
+        "atk": 51,
+        "def": 52,
+        "spd": 42,
+        "spa": 42,
+        "int": 44
+      },
+      "signatureMove": "Gust",
+      "visualPrompt": "Lean, fast dog. Lightning jagged stripes. Runs at light speed.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "102",
+      "name": "Thundergod",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 70,
+        "atk": 75,
+        "def": 84,
+        "spd": 82,
+        "spa": 75,
+        "int": 84
+      },
+      "signatureMove": "Gust",
+      "visualPrompt": "Raijin-inspired wolf. Drums of thunder float behind it.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "103",
+      "name": "Cloudsheep",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 27,
+        "def": 25,
+        "spd": 25,
+        "spa": 23,
+        "int": 25
+      },
+      "signatureMove": "Air Slash",
+      "visualPrompt": "Sheep made of cotton-candy cloud.",
+      "rarity": "Common"
+    },
+    {
+      "id": "104",
+      "name": "Stormram",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 47,
+        "atk": 53,
+        "def": 49,
+        "spd": 41,
+        "spa": 43,
+        "int": 44
+      },
+      "signatureMove": "Gust",
+      "visualPrompt": "Ram with horns made of lightning bolts. Grey storm-cloud wool.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "105",
+      "name": "Tornado",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 71,
+        "atk": 83,
+        "def": 75,
+        "spd": 77,
+        "spa": 71,
+        "int": 79
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "The sheep is gone; it's a living F5 tornado with eyes. Chaos incarnate.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "106",
+      "name": "Harpystar",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 20,
+        "atk": 24,
+        "def": 26,
+        "spd": 25,
+        "spa": 27,
+        "int": 24
+      },
+      "signatureMove": "Mach Strike",
+      "visualPrompt": "Bird-human hybrid kid. Feathers are metallic silver.",
+      "rarity": "Common"
+    },
+    {
+      "id": "107",
+      "name": "Valkyriesky",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 45,
+        "atk": 45,
+        "def": 48,
+        "spd": 40,
+        "spa": 42,
+        "int": 50
+      },
+      "signatureMove": "Mach Strike",
+      "visualPrompt": "Armored winged warrior. Spear of light.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "108",
+      "name": "Odinwing",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 81,
+        "atk": 83,
+        "def": 80,
+        "spd": 75,
+        "spa": 75,
+        "int": 82
+      },
+      "signatureMove": "Hurricane",
+      "visualPrompt": "Six-winged seraphim. Face covered by a golden mask.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "109",
+      "name": "Falconjet",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 20,
+        "atk": 27,
+        "def": 20,
+        "spd": 23,
+        "spa": 26,
+        "int": 27
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "Peregrine falcon with jet intakes on shoulders.",
+      "rarity": "Common"
+    },
+    {
+      "id": "110",
+      "name": "Machspeed",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 54,
+        "atk": 51,
+        "def": 46,
+        "spd": 43,
+        "spa": 52,
+        "int": 44
+      },
+      "signatureMove": "Mach Strike",
+      "visualPrompt": "Biomechanical jet-bird. Breaking the sound barrier (visual shockwave).",
+      "rarity": "Rare"
+    },
+    {
+      "id": "111",
+      "name": "Supersonic",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 79,
+        "atk": 78,
+        "def": 82,
+        "spd": 81,
+        "spa": 70,
+        "int": 82
+      },
+      "signatureMove": "Hurricane",
+      "visualPrompt": "Sleek chrome bird. Looks like an alien fighter craft.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "112",
+      "name": "Wyverngale",
+      "element": "Wind",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 25,
+        "atk": 23,
+        "def": 29,
+        "spd": 27,
+        "spa": 24,
+        "int": 25
+      },
+      "signatureMove": "Mach Strike",
+      "visualPrompt": "Small dragon gliding on wind currents.",
+      "rarity": "Common"
+    },
+    {
+      "id": "113",
+      "name": "Aeros",
+      "element": "Wind",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 51,
+        "atk": 44,
+        "def": 43,
+        "spd": 45,
+        "spa": 43,
+        "int": 40
+      },
+      "signatureMove": "Hurricane",
+      "visualPrompt": "Dragon made of wind ribbons. Hard to see, mostly motion blur.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "114",
+      "name": "Zephyrus",
+      "element": "Wind",
+      "tier": "Elder",
+      "stats": {
+        "hp": 73,
+        "atk": 82,
+        "def": 80,
+        "spd": 84,
+        "spa": 81,
+        "int": 76
+      },
+      "signatureMove": "Air Slash",
+      "visualPrompt": "The West Wind personified. A dragon of pure transparent distortion. Only visible by debris it carries.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "115",
+      "name": "Radiant",
+      "element": "Wind",
+      "tier": "LEGENDARY",
+      "stats": {
+        "hp": 24,
+        "atk": 26,
+        "def": 23,
+        "spd": 29,
+        "spa": 29,
+        "int": 29
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "A being of pure light. Faceless, formless, just a silhouette of blinding white energy. **(Region Boss)**",
+      "rarity": "Rare"
+    },
+    {
+      "id": "116",
+      "name": "Herald of Storm",
+      "element": "Wind",
+      "tier": "MYTHIC",
+      "stats": {
+        "hp": 25,
+        "atk": 25,
+        "def": 24,
+        "spd": 21,
+        "spa": 26,
+        "int": 21
+      },
+      "signatureMove": "Sonic Boom",
+      "visualPrompt": "(From DB) \"Final Reckoning\". A knight of lightning. Moves instantly. Armor is static noise.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "117",
+      "name": "Voidkit",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 21,
+        "atk": 25,
+        "def": 29,
+        "spd": 23,
+        "spa": 29,
+        "int": 26
+      },
+      "signatureMove": "Shadow Ball",
+      "visualPrompt": "**(Reference Image)** Purple creature, large ears, hatching from a cracked egg made of starlight. Galaxy patterns in eyes.",
+      "rarity": "Common"
+    },
+    {
+      "id": "118",
+      "name": "Nebulacat",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 51,
+        "atk": 53,
+        "def": 50,
+        "spd": 54,
+        "spa": 49,
+        "int": 52
+      },
+      "signatureMove": "Soul Steal",
+      "visualPrompt": "Sphynx cat made of dark matter. Stars drift inside its body. Floating geometric halos.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "119",
+      "name": "Cosmiclion",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 83,
+        "atk": 74,
+        "def": 80,
+        "spd": 79,
+        "spa": 82,
+        "int": 78
+      },
+      "signatureMove": "Dark Pulse",
+      "visualPrompt": "Lion made of a galaxy cluster. Mane is a nebula. Paws tread on nothingness.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "120",
+      "name": "Ghostbyte",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 26,
+        "atk": 29,
+        "def": 22,
+        "spd": 27,
+        "spa": 20,
+        "int": 27
+      },
+      "signatureMove": "Soul Steal",
+      "visualPrompt": "Pac-man ghost aesthetic but high-res. Pixelated edges dissolving into smoke.",
+      "rarity": "Common"
+    },
+    {
+      "id": "121",
+      "name": "Phantomcode",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 50,
+        "atk": 44,
+        "def": 48,
+        "spd": 48,
+        "spa": 42,
+        "int": 49
+      },
+      "signatureMove": "Glitch Beam",
+      "visualPrompt": "Hooded figure. Face is a scrolling wall of green code. glitch effects on hands.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "122",
+      "name": "Glitchgod",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 81,
+        "atk": 72,
+        "def": 71,
+        "spd": 72,
+        "spa": 78,
+        "int": 83
+      },
+      "signatureMove": "Soul Steal",
+      "visualPrompt": "A being constantly shifting forms. Broken polygons, missing textures (checkerboard), aggressive data corruption.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "123",
+      "name": "Spiritwisp",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 29,
+        "atk": 26,
+        "def": 25,
+        "spd": 23,
+        "spa": 25,
+        "int": 20
+      },
+      "signatureMove": "Glitch Beam",
+      "visualPrompt": "Tiny blue flame with a sad face.",
+      "rarity": "Common"
+    },
+    {
+      "id": "124",
+      "name": "Soulkeeper",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 49,
+        "atk": 41,
+        "def": 54,
+        "spd": 45,
+        "spa": 49,
+        "int": 51
+      },
+      "signatureMove": "Glitch Beam",
+      "visualPrompt": "Reaper-like figure holding a lantern containing a soul. Robes are torn reality.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "125",
+      "name": "Grimwalker",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 77,
+        "atk": 80,
+        "def": 79,
+        "spd": 79,
+        "spa": 83,
+        "int": 79
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "Giant skeleton mage. Staff is a spinal column. Robes are made of shadows.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "126",
+      "name": "Obsidian",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 21,
+        "atk": 29,
+        "def": 26,
+        "spd": 28,
+        "spa": 20,
+        "int": 22
+      },
+      "signatureMove": "Dark Pulse",
+      "visualPrompt": "Black rock lizard. Absorbs all light (Vantablack).",
+      "rarity": "Common"
+    },
+    {
+      "id": "127",
+      "name": "Voidwalker",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 42,
+        "atk": 41,
+        "def": 53,
+        "spd": 49,
+        "spa": 44,
+        "int": 45
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "Raptor made of shadows. Can step through portals (visualized as holes in the air).",
+      "rarity": "Rare"
+    },
+    {
+      "id": "128",
+      "name": "Eclipse",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 74,
+        "atk": 76,
+        "def": 81,
+        "spd": 71,
+        "spa": 82,
+        "int": 83
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "T-Rex sized shadow monster. A ring of light behind its head (eclipse effect).",
+      "rarity": "Rare"
+    },
+    {
+      "id": "129",
+      "name": "Mindflayer",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 25,
+        "atk": 20,
+        "def": 22,
+        "spd": 24,
+        "spa": 22,
+        "int": 27
+      },
+      "signatureMove": "Soul Steal",
+      "visualPrompt": "Small cute octopus floating in air. Psychic ripples.",
+      "rarity": "Common"
+    },
+    {
+      "id": "130",
+      "name": "Brainstorm",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 41,
+        "atk": 47,
+        "def": 52,
+        "spd": 40,
+        "spa": 54,
+        "int": 53
+      },
+      "signatureMove": "Soul Steal",
+      "visualPrompt": "Big-brained alien grey. Levitation chaos debris around it.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "131",
+      "name": "Psionic",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 70,
+        "atk": 77,
+        "def": 73,
+        "spd": 75,
+        "spa": 84,
+        "int": 74
+      },
+      "signatureMove": "Glitch Beam",
+      "visualPrompt": "Floating brain in a mech suit. Telekinetic prowess visualized as purple waves.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "132",
+      "name": "Ectoplasm",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 25,
+        "atk": 20,
+        "def": 26,
+        "spd": 26,
+        "spa": 23,
+        "int": 21
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "Green slime blotch. Glowing.",
+      "rarity": "Common"
+    },
+    {
+      "id": "133",
+      "name": "Poltergeist",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 40,
+        "atk": 42,
+        "def": 49,
+        "spd": 54,
+        "spa": 54,
+        "int": 54
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "The slime forms a humanoid shape. Objects floating around it (chairs, rocks).",
+      "rarity": "Rare"
+    },
+    {
+      "id": "134",
+      "name": "Hauntmaster",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 79,
+        "atk": 73,
+        "def": 74,
+        "spd": 70,
+        "spa": 81,
+        "int": 73
+      },
+      "signatureMove": "Shadow Ball",
+      "visualPrompt": "A house... no, a giant golem made of haunted house parts.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "135",
+      "name": "Cryptokitty",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 22,
+        "atk": 28,
+        "def": 29,
+        "spd": 25,
+        "spa": 22,
+        "int": 28
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "(Meta joke) 8-bit cat but 3D voxel style. Gold coin collar.",
+      "rarity": "Common"
+    },
+    {
+      "id": "136",
+      "name": "Blockchainer",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 44,
+        "atk": 53,
+        "def": 44,
+        "spd": 49,
+        "spa": 42,
+        "int": 40
+      },
+      "signatureMove": "Dark Pulse",
+      "visualPrompt": "Serpent made of linked golden blocks. Encryption logic symbols floating.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "137",
+      "name": "Ledgerlord",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 77,
+        "atk": 75,
+        "def": 74,
+        "spd": 83,
+        "spa": 76,
+        "int": 79
+      },
+      "signatureMove": "Dark Pulse",
+      "visualPrompt": "Dragon made of immutable gold chains. Scales are transaction hashes.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "138",
+      "name": "Mirrorshard",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 20,
+        "atk": 21,
+        "def": 28,
+        "spd": 21,
+        "spa": 26,
+        "int": 20
+      },
+      "signatureMove": "Shadow Ball",
+      "visualPrompt": "Floating piece of broken mirror. Reflection shows a different world.",
+      "rarity": "Common"
+    },
+    {
+      "id": "139",
+      "name": "Glasswalker",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 49,
+        "atk": 52,
+        "def": 40,
+        "spd": 53,
+        "spa": 42,
+        "int": 44
+      },
+      "signatureMove": "Soul Steal",
+      "visualPrompt": "Invisible stalker. Only visible by light refraction/distortion.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "140",
+      "name": "Prismbreak",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 77,
+        "atk": 82,
+        "def": 82,
+        "spd": 84,
+        "spa": 81,
+        "int": 83
+      },
+      "signatureMove": "Glitch Beam",
+      "visualPrompt": "A being of shattered glass. Constant kaleidoscope effect.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "141",
+      "name": "Null",
+      "element": "Spirit",
+      "tier": "Hatchling",
+      "stats": {
+        "hp": 20,
+        "atk": 24,
+        "def": 22,
+        "spd": 28,
+        "spa": 24,
+        "int": 22
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "A hole in the world. White outline.",
+      "rarity": "Common"
+    },
+    {
+      "id": "142",
+      "name": "Void",
+      "element": "Spirit",
+      "tier": "Fledgling",
+      "stats": {
+        "hp": 51,
+        "atk": 45,
+        "def": 53,
+        "spd": 50,
+        "spa": 43,
+        "int": 52
+      },
+      "signatureMove": "Glitch Beam",
+      "visualPrompt": "A larger hole. Pulls debris into it.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "143",
+      "name": "Singularity",
+      "element": "Spirit",
+      "tier": "Elder",
+      "stats": {
+        "hp": 71,
+        "atk": 71,
+        "def": 71,
+        "spd": 78,
+        "spa": 74,
+        "int": 79
+      },
+      "signatureMove": "Soul Steal",
+      "visualPrompt": "A black hole with a face. Event horizon crown.",
+      "rarity": "Rare"
+    },
+    {
+      "id": "144",
+      "name": "The Echeron",
+      "element": "Spirit",
+      "tier": "LEGENDARY",
+      "stats": {
+        "hp": 25,
+        "atk": 29,
+        "def": 24,
+        "spd": 29,
+        "spa": 25,
+        "int": 25
+      },
+      "signatureMove": "Confuse Ray",
+      "visualPrompt": "The Spirit Avatar. A being of pure code and starlight. The \"Architect\" of the simulation. Wings of fiber-optic light. **(The Ultimate Boss)**",
+      "rarity": "Rare"
+    }
+  ],
+  "mintCost": {
+    "Hatchling": 0,
+    "Fledgling": 500,
+    "Elder": 2000,
+    "Ascended": 10000,
+    "Legendary": "Event Only",
+    "Mythic": "Quest Only"
+  }
+}

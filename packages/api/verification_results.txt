@@ -1,0 +1,51 @@
+[dotenv@17.3.1] injecting env (20) from ..\..\..\..\..\.env -- tip: ⚙️  enable debug logging with { debug: true }
+🔍 Scanning Treasury: JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6
+🔑 Helius Key: Loaded (3f82...)
+📦 Total Assets Found: 7
+
+✅ FOUND TARGET [0000]:
+   - Name: Neonix #0000
+   - Mint: 9ovp8EWBmSGi8FHUhCm5xWENnXngCh1xkM71iezvFV1T
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreibrhprshhfug3ae6fy34yzyqzl3l22ce73wqcktlaitvxkb6p5gwy
+
+✅ FOUND TARGET [088]:
+   - Name: Frostbyte #088 — First Print #3/7
+   - Mint: GpEawWS2Gyca8HwJYDT34DNf4Eky2r2qxPzxMGUWuQkJ
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreif3f2un6gul5yqi2hy7yaol5v5y4knzgtaoy7vigkdiprr3lt7bcu
+   - Name: Frostbyte #088 — First Print #2/7
+   - Mint: EoKM2LBsTYgLZSLFM6FQa5UFqum8rZB2XCEDa2xHMF2G
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreie4fjgtftivainahdmc7aupsmkvo6dphbed4bzvf6t4ybydy7gx3a
+   - Name: Frostbyte #088 — First Print #5/7
+   - Mint: DGxftJAgar1yMqfsDXMx7Z2iDJjoMzGV8dSV4bL6Zdsm
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreialkxltvv37t2biysyzcifu7m4zu2abpbgsbw3w6ui2gsvnaiq5zi
+   - Name: Frostbyte #088 — First Print #6/7
+   - Mint: DDb8DxFhaBprMbxXqSvmfxaoZX4b5UV4n7YWQX9gMkjV
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreigiqxk3eiu7i463hsjle5pfh3rtn2iigadergxgzn63cr7qq5faxm
+   - Name: Frostbyte #088 — First Print #7/7
+   - Mint: 9sL3BLWf7NSzcV7tgLVSF9dMUvkTebKXGfDP1x8eczBJ
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreic6kmbtvs43uhuc45f33zkjs2rflp6wgomybd5a4od7lqfmek57ri
+   - Name: Frostbyte #088 — First Print #1/7
+   - Mint: 3uHbiXgzcQLFPZud9NB4AgjUnX3dTQxgew6RQND4gWnW
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreifsvwv3tacb3ruki77csvsrfr4y5c2ew4u45jsb4mqgfmm65rdcmi
+
+✅ FOUND TARGET [Frostbyte]:
+   - Name: Frostbyte #088 — First Print #3/7
+   - Mint: GpEawWS2Gyca8HwJYDT34DNf4Eky2r2qxPzxMGUWuQkJ
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreif3f2un6gul5yqi2hy7yaol5v5y4knzgtaoy7vigkdiprr3lt7bcu
+   - Name: Frostbyte #088 — First Print #2/7
+   - Mint: EoKM2LBsTYgLZSLFM6FQa5UFqum8rZB2XCEDa2xHMF2G
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreie4fjgtftivainahdmc7aupsmkvo6dphbed4bzvf6t4ybydy7gx3a
+   - Name: Frostbyte #088 — First Print #5/7
+   - Mint: DGxftJAgar1yMqfsDXMx7Z2iDJjoMzGV8dSV4bL6Zdsm
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreialkxltvv37t2biysyzcifu7m4zu2abpbgsbw3w6ui2gsvnaiq5zi
+   - Name: Frostbyte #088 — First Print #6/7
+   - Mint: DDb8DxFhaBprMbxXqSvmfxaoZX4b5UV4n7YWQX9gMkjV
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreigiqxk3eiu7i463hsjle5pfh3rtn2iigadergxgzn63cr7qq5faxm
+   - Name: Frostbyte #088 — First Print #7/7
+   - Mint: 9sL3BLWf7NSzcV7tgLVSF9dMUvkTebKXGfDP1x8eczBJ
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreic6kmbtvs43uhuc45f33zkjs2rflp6wgomybd5a4od7lqfmek57ri
+   - Name: Frostbyte #088 — First Print #1/7
+   - Mint: 3uHbiXgzcQLFPZud9NB4AgjUnX3dTQxgew6RQND4gWnW
+   - URI:  https://gateway.pinata.cloud/ipfs/bafkreifsvwv3tacb3ruki77csvsrfr4y5c2ew4u45jsb4mqgfmm65rdcmi
+
+❌ MISSING TARGET [Genesis]

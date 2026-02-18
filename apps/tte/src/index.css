@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  overscroll-behavior: none;
+  /* Prevent pull-to-refresh on mobile */
+  background-color: #0f0a1e;
+  color: white;
+}

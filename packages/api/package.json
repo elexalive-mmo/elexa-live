@@ -1,0 +1,31 @@
+{
+    "name": "@elexa-live/api",
+    "version": "1.0.0",
+    "private": true,
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "node src/index.js",
+        "start": "node src/index.js",
+        "lint": "echo \"lint:api — no-op\""
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "@metaplex-foundation/mpl-bubblegum": "^5.0.2",
+        "@metaplex-foundation/mpl-core": "^1.7.0",
+        "@metaplex-foundation/umi": "^1.4.1",
+        "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+        "@solana/web3.js": "^1.98.4",
+        "axios": "^1.13.5",
+        "bs58": "^6.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.4",
+        "express": "^4.19.2",
+        "fs-extra": "^11.2.0",
+        "node-cron": "^4.2.1",
+        "node-telegram-bot-api": "^0.64.0",
+        "openai": "^6.21.0",
+        "tmi.js": "^1.8.5",
+        "twitter-api-v2": "^1.29.0",
+        "ws": "^8.19.0"
+    }
+}

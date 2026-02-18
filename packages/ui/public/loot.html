@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <title>ElexaLive - Loot Claim</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    #container {
+      position: relative;
+      text-align: center;
+      z-index: 10;
+    }
+
+    #chest {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      background: linear-gradient(135deg, #8a2be2 0%, #4b0082 50%, #ffd700 100%);
+      border-radius: 20px;
+      cursor: pointer;
+      transition: transform 0.3s, filter 0.3s;
+      filter: drop-shadow(0 0 30px #8a2be2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #chest::before {
+      content: '💎';
+      position: absolute;
+      font-size: 100px;
+      opacity: 0.8;
+    }
+
+    #chest:hover {
+      transform: scale(1.1);
+      filter: drop-shadow(0 0 50px #ffd700);
+    }
+
+    #chest.opening {
+      animation: openChest 1.2s ease-in-out;
+    }
+
+    #particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    .particle {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: radial-gradient(circle, #ffd700 0%, #ff8c00 100%);
+      border-radius: 50%;
+      box-shadow: 0 0 20px #ffd700, 0 0 40px #ff8c00;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #claim-text {
+      margin-top: 30px;
+      font-size: 2.2em;
+      font-weight: bold;
+      text-shadow: 0 0 20px #8a2be2, 0 0 40px #4b0082;
+      opacity: 0;
+      transition: opacity 0.8s;
+      color: #ffd700;
+    }
+
+    #wallet-ping {
+      margin-top: 15px;
+      font-size: 1.4em;
+      color: #00ff9d;
+      opacity: 0;
+      transition: opacity 0.8s 0.4s;
+      text-shadow: 0 0 10px #00ff9d;
+    }
+
+    #amount {
+      font-size: 2.5em;
+      color: #ffd700;
+      margin-top: 10px;
+      text-shadow: 0 0 20px #ffd700;
+    }
+
+    @keyframes openChest {
+      0% {
+        transform: scale(1) rotate(0deg);
+        filter: drop-shadow(0 0 30px #8a2be2);
+      }
+      50% {
+        transform: scale(1.4) rotate(10deg);
+        filter: drop-shadow(0 0 60px #ffd700);
+      }
+      100% {
+        transform: scale(1.2) rotate(-5deg);
+        filter: drop-shadow(0 0 40px #ffd700);
+      }
+    }
+
+    @keyframes fadeInOut {
+      0% {
+        opacity: 0;
+        transform: translateY(0) scale(0.5);
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(-150px) scale(1.2);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-300px) scale(0.8);
+      }
+    }
+
+    @keyframes glowPulse {
+      0%, 100% {
+        box-shadow: 0 0 30px #8a2be2, 0 0 60px #4b0082;
+      }
+      50% {
+        box-shadow: 0 0 60px #ffd700, 0 0 100px #ff8c00, 0 0 140px #8a2be2;
+      }
+    }
+
+    .glowing {
+      animation: glowPulse 2s infinite alternate;
+    }
+
+    .nebula-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(ellipse at center, rgba(138, 43, 226, 0.3) 0%, transparent 70%);
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="nebula-bg"></div>
+  <div id="container">
+    <div id="chest" onclick="claimLoot()"></div>
+    <div id="particles"></div>
+    <div id="claim-text">Loot Claimed!</div>
+    <div id="wallet-ping">+<span id="amount">0.042</span> SOL airdropped</div>
+  </div>
+
+  <script>
+    // Telegram WebApp init
+    if (window.Telegram?.WebApp) {
+      Telegram.WebApp.ready();
+      Telegram.WebApp.expand();
+      
+      // Get amount from URL params
+      const urlParams = new URLSearchParams(window.location.search);
+      const amount = urlParams.get('amount') || '0.042';
+      const items = urlParams.get('items') || '1';
+      
+      document.getElementById('amount').textContent = amount;
+    }
+
+    let claimed = false;
+
+    function claimLoot() {
+      if (claimed) return;
+      claimed = true;
+
+      const chest = document.getElementById('chest');
+      const text = document.getElementById('claim-text');
+      const ping = document.getElementById('wallet-ping');
+
+      // Chest open animation
+      chest.classList.add('opening');
+      chest.classList.add('glowing');
+
+      // Show text
+      setTimeout(() => {
+        text.style.opacity = 1;
+        ping.style.opacity = 1;
+      }, 600);
+
+      // Particles explosion
+      createParticles(50);
+
+      // Notify Telegram
+      if (window.Telegram?.WebApp) {
+        Telegram.WebApp.sendData(JSON.stringify({
+          action: 'loot_claimed',
+          timestamp: new Date().toISOString()
+        }));
+      }
+
+      // Haptic feedback (if supported)
+      if (window.Telegram?.WebApp?.HapticFeedback) {
+        Telegram.WebApp.HapticFeedback.notificationOccurred('success');
+      }
+
+      console.log('Loot claimed! Airdrop triggered.');
+    }
+
+    function createParticles(count) {
+      const container = document.getElementById('particles');
+      for (let i = 0; i < count; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        p.style.left = Math.random() * 100 + '%';
+        p.style.top = '50%';
+        p.style.animation = `fadeInOut ${Math.random() * 1.5 + 1}s forwards`;
+        p.style.animationDelay = Math.random() * 0.5 + 's';
+        container.appendChild(p);
+
+        setTimeout(() => p.remove(), 4000);
+      }
+    }
+
+    // Auto-claim on load if amount is provided
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('auto') === 'true') {
+      setTimeout(() => claimLoot(), 500);
+    }
+  </script>
+</body>
+</html>
+
