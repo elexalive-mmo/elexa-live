@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "timestamp": "2026-02-18T00:00:00.000Z",
+        "tick": 0
+    },
+    "economy": {
+        "price": 0.000001,
+        "mcap": 5000,
+        "phase": "SEED",
+        "treasuryBalance": 5.0,
+        "recentTrades": []
+    },
+    "civilization": {
+        "population": 7,
+        "day": 1,
+        "time": 0,
+        "weather": "Clear",
+        "chatLog": []
+    }
+}

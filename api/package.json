@@ -1,0 +1,14 @@
+{
+  "name": "elexa-live-memory-api",
+  "version": "1.0.0",
+  "description": "Memory dock API for Elexa Live — serves world state, chronicle, and roadmap from markdown files",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  }
+}

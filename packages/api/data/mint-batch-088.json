@@ -1,0 +1,626 @@
+{
+    "batchId": "gen1_frostbyte_first_print",
+    "elexamonId": "088",
+    "name": "Frostbyte",
+    "symbol": "ELXMN",
+    "collection": "Elexamon Gen 1 — First Print",
+    "totalEditions": 7,
+    "network": "mainnet-beta",
+    "updateAuthority": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+    "metadataIsMutable": true,
+    "mediaSource": {
+        "image": "C:\\Users\\justi\\.openclaw\\media\\0088.png",
+        "animation": "C:\\Users\\justi\\.openclaw\\media\\0088.mp4"
+    },
+    "editions": [
+        {
+            "edition": 1,
+            "name": "Frostbyte #088 — First Print #1/7",
+            "description": "Gen 1 Legendary Shiny. Celestial white wolf spirit of the Water element. First Print edition for founding supporters of Elexa Live. One of 7 ever minted.",
+            "symbol": "ELXMN",
+            "seller_fee_basis_points": 500,
+            "external_url": "https://elexa.live",
+            "attributes": [
+                {
+                    "trait_type": "Generation",
+                    "value": "1"
+                },
+                {
+                    "trait_type": "Elexadex #",
+                    "value": "088"
+                },
+                {
+                    "trait_type": "Element",
+                    "value": "Water"
+                },
+                {
+                    "trait_type": "Tier",
+                    "value": "Hatchling"
+                },
+                {
+                    "trait_type": "Rarity",
+                    "value": "Shiny"
+                },
+                {
+                    "trait_type": "Edition",
+                    "value": "1/7"
+                },
+                {
+                    "trait_type": "Print",
+                    "value": "First Print"
+                },
+                {
+                    "trait_type": "HP",
+                    "value": "92"
+                },
+                {
+                    "trait_type": "ATK",
+                    "value": "88"
+                },
+                {
+                    "trait_type": "DEF",
+                    "value": "85"
+                },
+                {
+                    "trait_type": "SPD",
+                    "value": "95"
+                },
+                {
+                    "trait_type": "SPA",
+                    "value": "90"
+                },
+                {
+                    "trait_type": "INT",
+                    "value": "94"
+                },
+                {
+                    "trait_type": "Signature Move",
+                    "value": "Celestial Howl"
+                }
+            ],
+            "properties": {
+                "files": [
+                    {
+                        "uri": "PENDING_IPFS_IMAGE_URI",
+                        "type": "image/png"
+                    },
+                    {
+                        "uri": "PENDING_IPFS_ANIMATION_URI",
+                        "type": "video/mp4"
+                    }
+                ],
+                "category": "video",
+                "creators": [
+                    {
+                        "address": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+                        "share": 100
+                    }
+                ]
+            },
+            "image": "PENDING_IPFS_IMAGE_URI",
+            "animation_url": "PENDING_IPFS_ANIMATION_URI"
+        },
+        {
+            "edition": 2,
+            "name": "Frostbyte #088 — First Print #2/7",
+            "description": "Gen 1 Legendary Shiny. Celestial white wolf spirit of the Water element. First Print edition for founding supporters of Elexa Live. One of 7 ever minted.",
+            "symbol": "ELXMN",
+            "seller_fee_basis_points": 500,
+            "external_url": "https://elexa.live",
+            "attributes": [
+                {
+                    "trait_type": "Generation",
+                    "value": "1"
+                },
+                {
+                    "trait_type": "Elexadex #",
+                    "value": "088"
+                },
+                {
+                    "trait_type": "Element",
+                    "value": "Water"
+                },
+                {
+                    "trait_type": "Tier",
+                    "value": "Hatchling"
+                },
+                {
+                    "trait_type": "Rarity",
+                    "value": "Shiny"
+                },
+                {
+                    "trait_type": "Edition",
+                    "value": "2/7"
+                },
+                {
+                    "trait_type": "Print",
+                    "value": "First Print"
+                },
+                {
+                    "trait_type": "HP",
+                    "value": "92"
+                },
+                {
+                    "trait_type": "ATK",
+                    "value": "88"
+                },
+                {
+                    "trait_type": "DEF",
+                    "value": "85"
+                },
+                {
+                    "trait_type": "SPD",
+                    "value": "95"
+                },
+                {
+                    "trait_type": "SPA",
+                    "value": "90"
+                },
+                {
+                    "trait_type": "INT",
+                    "value": "94"
+                },
+                {
+                    "trait_type": "Signature Move",
+                    "value": "Celestial Howl"
+                }
+            ],
+            "properties": {
+                "files": [
+                    {
+                        "uri": "PENDING_IPFS_IMAGE_URI",
+                        "type": "image/png"
+                    },
+                    {
+                        "uri": "PENDING_IPFS_ANIMATION_URI",
+                        "type": "video/mp4"
+                    }
+                ],
+                "category": "video",
+                "creators": [
+                    {
+                        "address": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+                        "share": 100
+                    }
+                ]
+            },
+            "image": "PENDING_IPFS_IMAGE_URI",
+            "animation_url": "PENDING_IPFS_ANIMATION_URI"
+        },
+        {
+            "edition": 3,
+            "name": "Frostbyte #088 — First Print #3/7",
+            "description": "Gen 1 Legendary Shiny. Celestial white wolf spirit of the Water element. First Print edition for founding supporters of Elexa Live. One of 7 ever minted.",
+            "symbol": "ELXMN",
+            "seller_fee_basis_points": 500,
+            "external_url": "https://elexa.live",
+            "attributes": [
+                {
+                    "trait_type": "Generation",
+                    "value": "1"
+                },
+                {
+                    "trait_type": "Elexadex #",
+                    "value": "088"
+                },
+                {
+                    "trait_type": "Element",
+                    "value": "Water"
+                },
+                {
+                    "trait_type": "Tier",
+                    "value": "Hatchling"
+                },
+                {
+                    "trait_type": "Rarity",
+                    "value": "Shiny"
+                },
+                {
+                    "trait_type": "Edition",
+                    "value": "3/7"
+                },
+                {
+                    "trait_type": "Print",
+                    "value": "First Print"
+                },
+                {
+                    "trait_type": "HP",
+                    "value": "92"
+                },
+                {
+                    "trait_type": "ATK",
+                    "value": "88"
+                },
+                {
+                    "trait_type": "DEF",
+                    "value": "85"
+                },
+                {
+                    "trait_type": "SPD",
+                    "value": "95"
+                },
+                {
+                    "trait_type": "SPA",
+                    "value": "90"
+                },
+                {
+                    "trait_type": "INT",
+                    "value": "94"
+                },
+                {
+                    "trait_type": "Signature Move",
+                    "value": "Celestial Howl"
+                }
+            ],
+            "properties": {
+                "files": [
+                    {
+                        "uri": "PENDING_IPFS_IMAGE_URI",
+                        "type": "image/png"
+                    },
+                    {
+                        "uri": "PENDING_IPFS_ANIMATION_URI",
+                        "type": "video/mp4"
+                    }
+                ],
+                "category": "video",
+                "creators": [
+                    {
+                        "address": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+                        "share": 100
+                    }
+                ]
+            },
+            "image": "PENDING_IPFS_IMAGE_URI",
+            "animation_url": "PENDING_IPFS_ANIMATION_URI"
+        },
+        {
+            "edition": 4,
+            "name": "Frostbyte #088 — First Print #4/7",
+            "description": "Gen 1 Legendary Shiny. Celestial white wolf spirit of the Water element. First Print edition for founding supporters of Elexa Live. One of 7 ever minted.",
+            "symbol": "ELXMN",
+            "seller_fee_basis_points": 500,
+            "external_url": "https://elexa.live",
+            "attributes": [
+                {
+                    "trait_type": "Generation",
+                    "value": "1"
+                },
+                {
+                    "trait_type": "Elexadex #",
+                    "value": "088"
+                },
+                {
+                    "trait_type": "Element",
+                    "value": "Water"
+                },
+                {
+                    "trait_type": "Tier",
+                    "value": "Hatchling"
+                },
+                {
+                    "trait_type": "Rarity",
+                    "value": "Shiny"
+                },
+                {
+                    "trait_type": "Edition",
+                    "value": "4/7"
+                },
+                {
+                    "trait_type": "Print",
+                    "value": "First Print"
+                },
+                {
+                    "trait_type": "HP",
+                    "value": "92"
+                },
+                {
+                    "trait_type": "ATK",
+                    "value": "88"
+                },
+                {
+                    "trait_type": "DEF",
+                    "value": "85"
+                },
+                {
+                    "trait_type": "SPD",
+                    "value": "95"
+                },
+                {
+                    "trait_type": "SPA",
+                    "value": "90"
+                },
+                {
+                    "trait_type": "INT",
+                    "value": "94"
+                },
+                {
+                    "trait_type": "Signature Move",
+                    "value": "Celestial Howl"
+                }
+            ],
+            "properties": {
+                "files": [
+                    {
+                        "uri": "PENDING_IPFS_IMAGE_URI",
+                        "type": "image/png"
+                    },
+                    {
+                        "uri": "PENDING_IPFS_ANIMATION_URI",
+                        "type": "video/mp4"
+                    }
+                ],
+                "category": "video",
+                "creators": [
+                    {
+                        "address": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+                        "share": 100
+                    }
+                ]
+            },
+            "image": "PENDING_IPFS_IMAGE_URI",
+            "animation_url": "PENDING_IPFS_ANIMATION_URI"
+        },
+        {
+            "edition": 5,
+            "name": "Frostbyte #088 — First Print #5/7",
+            "description": "Gen 1 Legendary Shiny. Celestial white wolf spirit of the Water element. First Print edition for founding supporters of Elexa Live. One of 7 ever minted.",
+            "symbol": "ELXMN",
+            "seller_fee_basis_points": 500,
+            "external_url": "https://elexa.live",
+            "attributes": [
+                {
+                    "trait_type": "Generation",
+                    "value": "1"
+                },
+                {
+                    "trait_type": "Elexadex #",
+                    "value": "088"
+                },
+                {
+                    "trait_type": "Element",
+                    "value": "Water"
+                },
+                {
+                    "trait_type": "Tier",
+                    "value": "Hatchling"
+                },
+                {
+                    "trait_type": "Rarity",
+                    "value": "Shiny"
+                },
+                {
+                    "trait_type": "Edition",
+                    "value": "5/7"
+                },
+                {
+                    "trait_type": "Print",
+                    "value": "First Print"
+                },
+                {
+                    "trait_type": "HP",
+                    "value": "92"
+                },
+                {
+                    "trait_type": "ATK",
+                    "value": "88"
+                },
+                {
+                    "trait_type": "DEF",
+                    "value": "85"
+                },
+                {
+                    "trait_type": "SPD",
+                    "value": "95"
+                },
+                {
+                    "trait_type": "SPA",
+                    "value": "90"
+                },
+                {
+                    "trait_type": "INT",
+                    "value": "94"
+                },
+                {
+                    "trait_type": "Signature Move",
+                    "value": "Celestial Howl"
+                }
+            ],
+            "properties": {
+                "files": [
+                    {
+                        "uri": "PENDING_IPFS_IMAGE_URI",
+                        "type": "image/png"
+                    },
+                    {
+                        "uri": "PENDING_IPFS_ANIMATION_URI",
+                        "type": "video/mp4"
+                    }
+                ],
+                "category": "video",
+                "creators": [
+                    {
+                        "address": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+                        "share": 100
+                    }
+                ]
+            },
+            "image": "PENDING_IPFS_IMAGE_URI",
+            "animation_url": "PENDING_IPFS_ANIMATION_URI"
+        },
+        {
+            "edition": 6,
+            "name": "Frostbyte #088 — First Print #6/7",
+            "description": "Gen 1 Legendary Shiny. Celestial white wolf spirit of the Water element. First Print edition for founding supporters of Elexa Live. One of 7 ever minted.",
+            "symbol": "ELXMN",
+            "seller_fee_basis_points": 500,
+            "external_url": "https://elexa.live",
+            "attributes": [
+                {
+                    "trait_type": "Generation",
+                    "value": "1"
+                },
+                {
+                    "trait_type": "Elexadex #",
+                    "value": "088"
+                },
+                {
+                    "trait_type": "Element",
+                    "value": "Water"
+                },
+                {
+                    "trait_type": "Tier",
+                    "value": "Hatchling"
+                },
+                {
+                    "trait_type": "Rarity",
+                    "value": "Shiny"
+                },
+                {
+                    "trait_type": "Edition",
+                    "value": "6/7"
+                },
+                {
+                    "trait_type": "Print",
+                    "value": "First Print"
+                },
+                {
+                    "trait_type": "HP",
+                    "value": "92"
+                },
+                {
+                    "trait_type": "ATK",
+                    "value": "88"
+                },
+                {
+                    "trait_type": "DEF",
+                    "value": "85"
+                },
+                {
+                    "trait_type": "SPD",
+                    "value": "95"
+                },
+                {
+                    "trait_type": "SPA",
+                    "value": "90"
+                },
+                {
+                    "trait_type": "INT",
+                    "value": "94"
+                },
+                {
+                    "trait_type": "Signature Move",
+                    "value": "Celestial Howl"
+                }
+            ],
+            "properties": {
+                "files": [
+                    {
+                        "uri": "PENDING_IPFS_IMAGE_URI",
+                        "type": "image/png"
+                    },
+                    {
+                        "uri": "PENDING_IPFS_ANIMATION_URI",
+                        "type": "video/mp4"
+                    }
+                ],
+                "category": "video",
+                "creators": [
+                    {
+                        "address": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+                        "share": 100
+                    }
+                ]
+            },
+            "image": "PENDING_IPFS_IMAGE_URI",
+            "animation_url": "PENDING_IPFS_ANIMATION_URI"
+        },
+        {
+            "edition": 7,
+            "name": "Frostbyte #088 — First Print #7/7",
+            "description": "Gen 1 Legendary Shiny. Celestial white wolf spirit of the Water element. First Print edition for founding supporters of Elexa Live. One of 7 ever minted.",
+            "symbol": "ELXMN",
+            "seller_fee_basis_points": 500,
+            "external_url": "https://elexa.live",
+            "attributes": [
+                {
+                    "trait_type": "Generation",
+                    "value": "1"
+                },
+                {
+                    "trait_type": "Elexadex #",
+                    "value": "088"
+                },
+                {
+                    "trait_type": "Element",
+                    "value": "Water"
+                },
+                {
+                    "trait_type": "Tier",
+                    "value": "Hatchling"
+                },
+                {
+                    "trait_type": "Rarity",
+                    "value": "Shiny"
+                },
+                {
+                    "trait_type": "Edition",
+                    "value": "7/7"
+                },
+                {
+                    "trait_type": "Print",
+                    "value": "First Print"
+                },
+                {
+                    "trait_type": "HP",
+                    "value": "92"
+                },
+                {
+                    "trait_type": "ATK",
+                    "value": "88"
+                },
+                {
+                    "trait_type": "DEF",
+                    "value": "85"
+                },
+                {
+                    "trait_type": "SPD",
+                    "value": "95"
+                },
+                {
+                    "trait_type": "SPA",
+                    "value": "90"
+                },
+                {
+                    "trait_type": "INT",
+                    "value": "94"
+                },
+                {
+                    "trait_type": "Signature Move",
+                    "value": "Celestial Howl"
+                }
+            ],
+            "properties": {
+                "files": [
+                    {
+                        "uri": "PENDING_IPFS_IMAGE_URI",
+                        "type": "image/png"
+                    },
+                    {
+                        "uri": "PENDING_IPFS_ANIMATION_URI",
+                        "type": "video/mp4"
+                    }
+                ],
+                "category": "video",
+                "creators": [
+                    {
+                        "address": "JEFEXVZDh43U8eE27geg4wWPBJaBzTDyyyk15CVzvDy6",
+                        "share": 100
+                    }
+                ]
+            },
+            "image": "PENDING_IPFS_IMAGE_URI",
+            "animation_url": "PENDING_IPFS_ANIMATION_URI"
+        }
+    ]
+}

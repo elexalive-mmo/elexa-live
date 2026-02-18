@@ -1,0 +1,449 @@
+{
+    "version": "2.0",
+    "name": "The Lands of Elexa Live",
+    "description": "7-direction star map radiating from THE GATE. Risk and reward scale with distance from center.",
+    "spawn": {
+        "id": "the_haven",
+        "name": "The Haven",
+        "icon": "🏰",
+        "element": "Aether",
+        "color": "#a855f7",
+        "glow": "rgba(168, 85, 247, 0.5)",
+        "tier": 0,
+        "direction": "center",
+        "x": 50,
+        "y": 50,
+        "lore": "The ancient waypoint where all paths converge. Shielded by the Elexa Prime Axis, no harm can reach those who rest within its crystalline walls.",
+        "encounterRate": 0,
+        "lootMultiplier": 1,
+        "npcs": [
+            "Elexa Prime",
+            "Gate Warden",
+            "Merchant Kael"
+        ],
+        "buildings": [
+            "Portal Shrine",
+            "Traveler's Rest",
+            "The Forge Gate"
+        ]
+    },
+    "regions": [
+        {
+            "id": "crystal_tundra",
+            "name": "Crystal Tundra",
+            "direction": "N",
+            "tier": 3,
+            "element": "Ice",
+            "icon": "❄️",
+            "color": "#67e8f9",
+            "glow": "rgba(103, 232, 249, 0.5)",
+            "x": 50,
+            "y": 8,
+            "tiles": 100,
+            "plots": "71-85",
+            "season": "Eternal Winter",
+            "boss": {
+                "name": "Frost Titan",
+                "icon": "🏔️",
+                "hp": 2500,
+                "tile": 100,
+                "lore": "An ancient colossus of living ice."
+            },
+            "hazard": "Blizzard — Vision reduced, movement slowed",
+            "encounterRate": 0.35,
+            "lootMultiplier": 5,
+            "lore": "The Heights. A vast frozen expanse where crystal spires pierce the sky.",
+            "ambience": "snowfall",
+            "bgGradient": "linear-gradient(180deg, #0c1445 0%, #1e3a5f 40%, #67e8f9 100%)",
+            "npcs": [
+                "Frost Hermit",
+                "Crystal Shaper"
+            ],
+            "elexamonElement": "Water"
+        },
+        {
+            "id": "skybreak_plateau",
+            "name": "Skyreach Plateau",
+            "direction": "NE",
+            "tier": 2,
+            "element": "Air",
+            "icon": "⛰️",
+            "color": "#60a5fa",
+            "glow": "rgba(96, 165, 250, 0.5)",
+            "x": 78,
+            "y": 22,
+            "tiles": 100,
+            "plots": "26-40",
+            "season": "Autumn Gales",
+            "boss": {
+                "name": "Storm Warden",
+                "icon": "⚡",
+                "hp": 1500,
+                "tile": 100,
+                "lore": "A sentinel of pure lightning."
+            },
+            "hazard": "Gale Winds — Random tile displacement",
+            "encounterRate": 0.20,
+            "lootMultiplier": 3,
+            "lore": "Skyreach. Towering mesas above the clouds, where branches touch the stars.",
+            "ambience": "windstorm",
+            "bgGradient": "linear-gradient(180deg, #1e1b4b 0%, #3730a3 30%, #60a5fa 70%, #e2e8f0 100%)",
+            "npcs": [
+                "Wind Sage",
+                "Bridge Keeper"
+            ],
+            "elexamonElement": "Air"
+        },
+        {
+            "id": "ash_ridge",
+            "name": "Ash Ridge",
+            "direction": "E",
+            "tier": 1,
+            "element": "Fire",
+            "icon": "🔥",
+            "color": "#f97316",
+            "glow": "rgba(249, 115, 22, 0.5)",
+            "x": 88,
+            "y": 50,
+            "tiles": 100,
+            "plots": "2-10",
+            "season": "Ember Summer",
+            "boss": {
+                "name": "Fire Drake",
+                "icon": "🐉",
+                "hp": 800,
+                "tile": 100,
+                "lore": "The youngest of the three Great Drakes."
+            },
+            "hazard": "Ember Rain — Periodic fire damage",
+            "encounterRate": 0.10,
+            "lootMultiplier": 1.5,
+            "lore": "Volcanic ridgelines glow orange beneath ashen skies.",
+            "ambience": "embers",
+            "bgGradient": "linear-gradient(180deg, #1c1917 0%, #7c2d12 40%, #f97316 80%, #fbbf24 100%)",
+            "npcs": [
+                "Forge Master Vance",
+                "Ash Merchant"
+            ],
+            "elexamonElement": "Fire"
+        },
+        {
+            "id": "iron_pass",
+            "name": "Iron Grove",
+            "direction": "SE",
+            "tier": 2,
+            "element": "Metal",
+            "icon": "⚙️",
+            "color": "#94a3b8",
+            "glow": "rgba(148, 163, 184, 0.5)",
+            "x": 78,
+            "y": 78,
+            "tiles": 100,
+            "plots": "41-55",
+            "season": "Iron Age",
+            "boss": {
+                "name": "Steel Golem",
+                "icon": "🤖",
+                "hp": 1800,
+                "tile": 100,
+                "lore": "An autonomous war machine."
+            },
+            "hazard": "Mechanical Traps — Tile puzzles",
+            "encounterRate": 0.20,
+            "lootMultiplier": 3,
+            "lore": "Metallic flora developed for defense. A rusted automaton grave.",
+            "ambience": "gears",
+            "bgGradient": "linear-gradient(180deg, #0f172a 0%, #334155 40%, #94a3b8 80%, #cbd5e1 100%)",
+            "npcs": [
+                "Blacksmith Korr",
+                "Scrap Merchant"
+            ],
+            "elexamonElement": "Earth"
+        },
+        {
+            "id": "fog_marsh",
+            "name": "Fog Marsh",
+            "direction": "S",
+            "tier": 1,
+            "element": "Water",
+            "icon": "🌫️",
+            "color": "#a3e635",
+            "glow": "rgba(163, 230, 53, 0.4)",
+            "x": 50,
+            "y": 92,
+            "tiles": 100,
+            "plots": "11-25",
+            "season": "Monsoon Spring",
+            "boss": {
+                "name": "Ghost Crab",
+                "icon": "🦀",
+                "hp": 600,
+                "tile": 100,
+                "lore": "A spectral crustacean."
+            },
+            "hazard": "Slow — 2x EXP earned",
+            "encounterRate": 0.10,
+            "lootMultiplier": 1.5,
+            "lore": "Bioluminescent wetland where entropy begins.",
+            "ambience": "fog",
+            "bgGradient": "linear-gradient(180deg, #0a0f0a 0%, #1a2e1a 40%, #4ade80 80%, #a3e635 100%)",
+            "npcs": [
+                "Marsh Witch",
+                "Fungal Alchemist"
+            ],
+            "elexamonElement": "Water"
+        },
+        {
+            "id": "void_wastes",
+            "name": "Void Wastes",
+            "direction": "SW",
+            "tier": 3,
+            "element": "Void",
+            "icon": "🕳️",
+            "color": "#c084fc",
+            "glow": "rgba(192, 132, 252, 0.5)",
+            "x": 22,
+            "y": 78,
+            "tiles": 100,
+            "plots": "86-100",
+            "season": "The Endless Night",
+            "boss": {
+                "name": "Void Sovereign",
+                "icon": "👁️",
+                "hp": 3000,
+                "tile": 100,
+                "lore": "A being of pure entropy."
+            },
+            "hazard": "Reality Fractures — Stat corruption",
+            "encounterRate": 0.35,
+            "lootMultiplier": 5,
+            "lore": "Where reality thins at the outer reaches of the Tree.",
+            "ambience": "void",
+            "bgGradient": "linear-gradient(180deg, #0a0014 0%, #2e1065 40%, #7c3aed 70%, #c084fc 100%)",
+            "npcs": [
+                "Echo Fragment",
+                "Void Cartographer"
+            ],
+            "elexamonElement": "Void"
+        },
+        {
+            "id": "sylvan_glades",
+            "name": "Sylvan Glades",
+            "direction": "W",
+            "tier": 1,
+            "element": "Earth",
+            "icon": "🌿",
+            "color": "#22c55e",
+            "glow": "rgba(34, 197, 94, 0.5)",
+            "x": 12,
+            "y": 50,
+            "tiles": 100,
+            "plots": "56-70",
+            "season": "Eternal Spring",
+            "boss": {
+                "name": "Elder Treant",
+                "icon": "🌳",
+                "hp": 1200,
+                "tile": 100,
+                "lore": "The oldest living being."
+            },
+            "hazard": "Root Snare — Immobilization",
+            "encounterRate": 0.10,
+            "lootMultiplier": 1.5,
+            "lore": "Deepest green of the Tree's heart.",
+            "ambience": "forest",
+            "bgGradient": "linear-gradient(180deg, #052e16 0%, #166534 40%, #22c55e 70%, #bbf7d0 100%)",
+            "npcs": [
+                "Grove Keeper",
+                "Herbalist Lina"
+            ],
+            "elexamonElement": "Earth"
+        },
+        {
+            "id": "abyssal_coast",
+            "name": "Deep Coast",
+            "direction": "NW",
+            "tier": 2,
+            "element": "Water",
+            "icon": "🌊",
+            "color": "#3b82f6",
+            "glow": "rgba(59, 130, 246, 0.5)",
+            "x": 22,
+            "y": 22,
+            "tiles": 100,
+            "plots": "101-115",
+            "season": "Tidal Autumn",
+            "boss": {
+                "name": "Leviathan",
+                "icon": "🐋",
+                "hp": 2000,
+                "tile": 100,
+                "lore": "The White Whale of legend."
+            },
+            "hazard": "Liquidity Flood — Inventory shuffle",
+            "encounterRate": 0.20,
+            "lootMultiplier": 3,
+            "lore": "The water that feeds the roots. Dark cliffs and churning seas.",
+            "ambience": "ocean",
+            "bgGradient": "linear-gradient(180deg, #0c1445 0%, #1e3a5f 30%, #3b82f6 60%, #60a5fa 100%)",
+            "npcs": [
+                "Harbor Master",
+                "Deep Diver"
+            ],
+            "elexamonElement": "Water"
+        }
+    ],
+    "connections": [
+        {
+            "from": "the_gate",
+            "to": "crystal_tundra"
+        },
+        {
+            "from": "the_gate",
+            "to": "skybreak_plateau"
+        },
+        {
+            "from": "the_gate",
+            "to": "ash_ridge"
+        },
+        {
+            "from": "the_gate",
+            "to": "iron_pass"
+        },
+        {
+            "from": "the_gate",
+            "to": "fog_marsh"
+        },
+        {
+            "from": "the_gate",
+            "to": "void_wastes"
+        },
+        {
+            "from": "the_gate",
+            "to": "sylvan_glades"
+        },
+        {
+            "from": "the_gate",
+            "to": "abyssal_coast"
+        },
+        {
+            "from": "sylvan_glades",
+            "to": "abyssal_coast"
+        },
+        {
+            "from": "abyssal_coast",
+            "to": "crystal_tundra"
+        },
+        {
+            "from": "crystal_tundra",
+            "to": "skybreak_plateau"
+        },
+        {
+            "from": "skybreak_plateau",
+            "to": "ash_ridge"
+        },
+        {
+            "from": "ash_ridge",
+            "to": "iron_pass"
+        },
+        {
+            "from": "iron_pass",
+            "to": "fog_marsh"
+        },
+        {
+            "from": "fog_marsh",
+            "to": "void_wastes"
+        },
+        {
+            "from": "void_wastes",
+            "to": "sylvan_glades"
+        }
+    ],
+    "riskTiers": {
+        "0": {
+            "name": "Safe Zone",
+            "color": "#22c55e",
+            "description": "No encounters. Full services available.",
+            "lootMultiplier": 1,
+            "encounterRate": 0,
+            "regions": [
+                "the_gate"
+            ]
+        },
+        "1": {
+            "name": "Near Reaches",
+            "color": "#fbbf24",
+            "description": "Mild danger. Good for leveling and farming.",
+            "lootMultiplier": 1.5,
+            "encounterRate": 0.10,
+            "regions": [
+                "sylvan_glades",
+                "ash_ridge",
+                "fog_marsh"
+            ]
+        },
+        "2": {
+            "name": "Mid Frontier",
+            "color": "#f97316",
+            "description": "Moderate danger. Better loot, tougher encounters.",
+            "lootMultiplier": 3,
+            "encounterRate": 0.20,
+            "regions": [
+                "abyssal_coast",
+                "iron_pass",
+                "skybreak_plateau"
+            ]
+        },
+        "3": {
+            "name": "Deep Wilds",
+            "color": "#ef4444",
+            "description": "Maximum danger. Legendary loot. Endgame territory.",
+            "lootMultiplier": 5,
+            "encounterRate": 0.35,
+            "regions": [
+                "crystal_tundra",
+                "void_wastes"
+            ]
+        }
+    },
+    "elexamonElements": {
+        "Earth": {
+            "regions": [
+                "sylvan_glades",
+                "iron_pass"
+            ],
+            "icon": "🌿",
+            "color": "#22c55e"
+        },
+        "Fire": {
+            "regions": [
+                "ash_ridge"
+            ],
+            "icon": "🔥",
+            "color": "#f97316"
+        },
+        "Water": {
+            "regions": [
+                "fog_marsh",
+                "abyssal_coast",
+                "crystal_tundra"
+            ],
+            "icon": "🌊",
+            "color": "#3b82f6"
+        },
+        "Air": {
+            "regions": [
+                "skybreak_plateau"
+            ],
+            "icon": "💨",
+            "color": "#60a5fa"
+        },
+        "Void": {
+            "regions": [
+                "void_wastes"
+            ],
+            "icon": "🕳️",
+            "color": "#c084fc"
+        }
+    }
+}

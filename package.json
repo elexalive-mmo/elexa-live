@@ -1,0 +1,17 @@
+{
+    "name": "elexa-live",
+    "version": "1.0.0",
+    "packageManager": "pnpm@10.29.3",
+    "private": true,
+    "description": "Elexa Live — Solana MMO. Grind $EXP → Claim SOL. 144 Elexamon. @elexalive",
+    "scripts": {
+        "dev": "turbo run dev",
+        "build": "turbo run build",
+        "lint": "turbo run lint",
+        "api": "cd packages/api && npm run dev",
+        "ui": "cd packages/ui && npm run dev"
+    },
+    "devDependencies": {
+        "turbo": "^2.0.0"
+    }
+}

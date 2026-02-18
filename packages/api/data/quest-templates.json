@@ -1,0 +1,106 @@
+{
+    "version": "1.0",
+    "templates": [
+        {
+            "id": "conviction-farmstead",
+            "title": "Conviction Farmstead",
+            "lore": "A humble plot where seeds of loyalty bloom into Soul Dust under the eternal raid moon.",
+            "category": "farm",
+            "unlockLevel": 30,
+            "cost": {
+                "xp": 0,
+                "sol": 0
+            },
+            "buildTime": "instant",
+            "function": "Daily free Soul Dust harvest (+10 XP pulse)",
+            "elexamonSynergy": "Earth types (+20% yield)",
+            "forkable": true,
+            "rewards": [
+                "+100 XP on first harvest",
+                "Party-wide 1.1x multiplier (24h)"
+            ]
+        },
+        {
+            "id": "ember-tavern",
+            "title": "Ember Tavern",
+            "lore": "Warm fireside where raiders share tales—Elexamon innkeepers pour free ales of conviction.",
+            "category": "building",
+            "unlockLevel": 35,
+            "cost": {
+                "xp": 500
+            },
+            "buildTime": "24h",
+            "function": "Host party chats → +15% XP from social taps",
+            "elexamonSynergy": "Fire types (party buffs)",
+            "forkable": true,
+            "rewards": [
+                "Random loot keg (0.01 SOL)",
+                "Unlock villager recruitment"
+            ]
+        },
+        {
+            "id": "storm-raid-hall",
+            "title": "Storm Raid Hall",
+            "lore": "Echoes of boss cries linger here—train Elexamon for endless raids under thunderous skies.",
+            "category": "building",
+            "unlockLevel": 40,
+            "cost": {
+                "xp": 1000
+            },
+            "buildTime": "48h",
+            "function": "Private raids → 1.5x loot pool",
+            "elexamonSynergy": "Air types (scout bonuses)",
+            "forkable": true,
+            "rewards": [
+                "Heart Container (+max HP)",
+                "Guild House unlock vote"
+            ]
+        },
+        {
+            "id": "grotto-of-holds",
+            "title": "Grotto of Eternal Holds",
+            "lore": "Deep in Trench Lowlands, a hidden cave whispers: 'Hold through the night, claim the Shard.'",
+            "category": "dungeon",
+            "unlockLevel": 10,
+            "steps": [
+                {
+                    "action": "tap",
+                    "count": 200,
+                    "reward": "+20 XP"
+                },
+                {
+                    "action": "hold",
+                    "duration": "30min",
+                    "puzzle": "No sells in party"
+                },
+                {
+                    "action": "raid",
+                    "target": "Mini FUD boss"
+                }
+            ],
+            "rewards": [
+                "Shard of Conviction (2x loot multiplier, 24h)"
+            ],
+            "forkable": true
+        },
+        {
+            "id": "shitcoin-orchard",
+            "title": "Lady Shitcoin's Orchard",
+            "lore": "Maria's trenches wisdom: grow faster during dips, reap the chaos.",
+            "category": "farm",
+            "unlockLevel": 25,
+            "creator": "@ladyshitcoin",
+            "cost": {
+                "xp": 300
+            },
+            "buildTime": "12h",
+            "specialRule": "Yield doubles during market dips > 5%",
+            "elexamonSynergy": "Fire types (aggro bonus)",
+            "forkable": true,
+            "rewards": [
+                "Shitcoin-themed loot box",
+                "+200 XP"
+            ]
+        }
+    ]
+}

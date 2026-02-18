@@ -1,0 +1,40 @@
+{
+    "name": "Elexamon #0000 - The Radiant Genesis",
+    "symbol": "ELEXA",
+    "description": "The First Guardian of the Aetheric Consensus. A pre-Genesis relic of unmatched fidelity, born from the raw code of the world core.",
+    "image": "0000.png",
+    "animation_url": "0000.mp4",
+    "external_url": "https://elexa.live",
+    "seller_fee_basis_points": 1000,
+    "attributes": [
+        {
+            "trait_type": "Generation",
+            "value": "Pre-Genesis"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Legendary"
+        },
+        {
+            "trait_type": "Species",
+            "value": "First Guardian"
+        },
+        {
+            "trait_type": "Shiny",
+            "value": "True"
+        },
+        {
+            "trait_type": "Hatch Date",
+            "value": "Feb 10, 2026"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "https://arweave.net/ANIMATION_REPLACEMENT_ID",
+                "type": "video/mp4"
+            }
+        ],
+        "category": "video"
+    }
+}

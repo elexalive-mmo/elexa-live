@@ -1,0 +1,18 @@
+[dotenv@17.3.1] injecting env (28) from scripts\.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+📡 ELEXA OMNICHANNEL SYSTEM CHECK 📡
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[1] 🐦 Checking X (Twitter)...
+    ✅ ONLINE: @elexalive
+
+[2] ✈️ Checking Telegram...
+    ✅ ONLINE: @elexalivebot (ID: 8485186239)
+
+[3] 🟣 Checking Twitch Config...
+    ✅ CONFIG PRESENT: Channel 'elexalive'
+
+[4] 👾 Checking Discord Config...
+    ✅ CONFIG PRESENT: Token ends in ...${process.env.DISCORD_BOT_TOKEN.slice(-5)}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ DIAGNOSTIC COMPLETE

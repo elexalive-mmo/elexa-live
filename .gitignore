@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Build output
+dist/
+.turbo/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Lock files (pnpm uses pnpm-lock.yaml)
+package-lock.json
+
+# Secrets
+*.pem
+*.key
+
+# Debug
+debug-*.js
+
+# Simulation Data
+packages/api/data/simulation_state.json
+packages/api/data/secrets/
+target/
+.anchor/
